@@ -1,36 +1,46 @@
 # 🎓 Predict Students' Dropout and Academic Success
 
-Questo progetto analizza i fattori che influenzano l'abbandono scolastico e il successo accademico degli studenti universitari, utilizzando tecniche di **Machine Learning** per prevedere se uno studente completerà gli studi o si ritirerà.
+This project analyzes the factors influencing student dropout and academic success, using **Machine Learning** techniques to predict whether a student will graduate or drop out.
 
-## 🚀 Obiettivo del Progetto
-L'obiettivo è fornire uno strumento predittivo capace di identificare precocemente gli studenti a rischio, permettendo alle istituzioni accademiche di intervenire con strategie di supporto mirate.
+### 🚀 Project Goal
+The goal is to provide a predictive tool capable of identifying at-risk students early, allowing academic institutions to implement targeted support strategies.
 
-## 📊 Struttura del Repository
-Il progetto è diviso in tre fasi principali, ognuna documentata in un notebook dedicato:
+### 📊 Repository Structure
+The project is organized into three main phases:
 
-1. **`01_data_analysis.ipynb`**: Analisi Esplorativa dei Dati (EDA) per comprendere le correlazioni tra background familiare, demografia e performance accademica.
-2. **`02_data_cleaning.ipynb`**: Pulizia dei dati, gestione delle macro-categorie (Feature Engineering) e preparazione del dataset finale.
-3. **`data_modeling.ipynb`**: Addestramento e confronto tra modelli di classificazione (Regressione Logistica e Random Forest) con analisi della confidenza delle previsioni.
+1. **`01_data_analysis.ipynb`**: Exploratory Data Analysis (EDA) to understand correlations between family background, demographics, and academic performance.
+2. **`02_data_cleaning.ipynb`**: Data cleaning, feature engineering (macro-categories), and dataset preparation.
+3. **`data_modelling.ipynb`**: Model training and comparison (Logistic Regression vs. Random Forest) with prediction confidence analysis.
 
-## 🧠 Modelli e Risultati
-Abbiamo testato diverse architetture ottenendo i seguenti risultati:
+### 🧠 Models and Results
+* **Logistic Regression**: Chosen model with **92% accuracy** on the test set.
+* **Key Findings**: 2nd-semester grades and tuition fee status are the strongest predictors of student retention.
 
-* **Regressione Logistica**: Modello scelto per la produzione grazie a un'**accuratezza del 92%** e un'ottima capacità di generalizzazione.
-* **Random Forest**: Utilizzato per convalidare i risultati e identificare le feature più importanti.
-
-### Variabili Decisive (Feature Importance)
-L'analisi ha rivelato che i fattori più influenti per la previsione sono:
-1. Voti e unità curriculari approvate nel **2° semestre**.
-2. Performance accademica del **1° semestre**.
-3. Stato dei pagamenti delle tasse scolastiche (**Tuition fees up to date**).
-
-## 🛠️ Tecnologie Utilizzate
-* **Linguaggio**: Python
-* **Librerie**: Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
-* **Ambiente**: Jupyter Notebook / VS Code
-
-## 📈 Analisi della Confidenza
-Il modello finale mostra una distribuzione delle probabilità molto netta, indicando una forte separazione tra le classi e un'alta affidabilità nelle previsioni sia per i casi di successo che per quelli di abbandono.
+### 🛠️ Tech Stack
+* **Python**: Pandas, Scikit-learn, Seaborn, Matplotlib.
 
 ---
-*Progetto realizzato come caso studio di analisi predittiva applicata all'istruzione.*
+
+## 🇮🇹 Versione Italiana
+
+Questo progetto analizza i fattori che influenzano l'abbandono scolastico e il successo accademico, utilizzando tecniche di **Machine Learning** per prevedere se uno studente completerà gli studi o si ritirerà.
+
+### 🚀 Obiettivo del Progetto
+L'obiettivo è fornire uno strumento predittivo capace di identificare precocemente gli studenti a rischio, permettendo alle istituzioni di intervenire con strategie di supporto mirate.
+
+### 📊 Struttura del Repository
+Il progetto è diviso in tre fasi principali:
+
+1. **`01_data_analysis.ipynb`**: Analisi Esplorativa dei Dati (EDA) per comprendere le correlazioni tra background familiare e performance accademica.
+2. **`02_data_cleaning.ipynb`**: Pulizia dei dati, gestione delle macro-categorie (Feature Engineering) e preparazione del dataset.
+3. **`data_modelling.ipynb`**: Addestramento e confronto tra modelli (Regressione Logistica e Random Forest) con analisi della confidenza.
+
+### 🧠 Modelli e Risultati
+* **Regressione Logistica**: Modello finale con un'**accuratezza del 92%**.
+* **Scoperte Chiave**: I voti del 2° semestre e la regolarità nei pagamenti delle tasse sono risultati i predittori più forti.
+
+### 🛠️ Tecnologie Utilizzate
+* **Python**: Pandas, Scikit-learn, Seaborn, Matplotlib.
+
+---
+*Developed as a case study for predictive analysis in education.*
