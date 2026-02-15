@@ -1,5 +1,9 @@
 # 🎓 Predict Students' Dropout and Academic Success
 
+---
+
+## 🇺🇸 English Version
+
 This project analyzes the factors influencing student dropout and academic success, using **Machine Learning** techniques to predict whether a student will graduate or drop out.
 
 ### 🚀 Project Goal
