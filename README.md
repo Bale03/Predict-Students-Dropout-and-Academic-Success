@@ -12,8 +12,8 @@ The goal is to provide a predictive tool capable of identifying at-risk students
 ### 📊 Repository Structure
 The project is organized into three main phases:
 
-1. **`01_data_analysis.ipynb`**: Exploratory Data Analysis (EDA) to understand correlations between family background, demographics, and academic performance.
-2. **`02_data_cleaning.ipynb`**: Data cleaning, feature engineering (macro-categories), and dataset preparation.
+1. **`data_analysis.ipynb`**: Exploratory Data Analysis (EDA) to understand correlations between family background, demographics, and academic performance.
+2. **`data_cleaning.ipynb`**: Data cleaning, feature engineering (macro-categories), and dataset preparation.
 3. **`data_modelling.ipynb`**: Model training and comparison (Logistic Regression vs. Random Forest) with prediction confidence analysis.
 
 ### 🧠 Models and Results
@@ -47,4 +47,3 @@ Il progetto è diviso in tre fasi principali:
 * **Python**: Pandas, Scikit-learn, Seaborn, Matplotlib.
 
 ---
-*Developed as a case study for predictive analysis in education.*
