@@ -35,8 +35,8 @@ L'obiettivo è fornire uno strumento predittivo capace di identificare precoceme
 ### 📊 Struttura del Repository
 Il progetto è diviso in tre fasi principali:
 
-1. **`01_data_analysis.ipynb`**: Analisi Esplorativa dei Dati (EDA) per comprendere le correlazioni tra background familiare e performance accademica.
-2. **`02_data_cleaning.ipynb`**: Pulizia dei dati, gestione delle macro-categorie (Feature Engineering) e preparazione del dataset.
+1. **`data_analysis.ipynb`**: Analisi Esplorativa dei Dati (EDA) per comprendere le correlazioni tra background familiare e performance accademica.
+2. **`data_cleaning.ipynb`**: Pulizia dei dati, gestione delle macro-categorie (Feature Engineering) e preparazione del dataset.
 3. **`data_modelling.ipynb`**: Addestramento e confronto tra modelli (Regressione Logistica e Random Forest) con analisi della confidenza.
 
 ### 🧠 Modelli e Risultati
